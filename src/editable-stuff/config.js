@@ -43,7 +43,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Gianni DePaola. I am a graduate from the University of Cincinnati class of '24 with a B.S. in Cybersecurity and a B.S. in IT Computer Networking and Systems. I am very passionate about information security, technology, and learning new things.",
-  resume: require("../editable-stuff/resume.pdf"),
+  // resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
