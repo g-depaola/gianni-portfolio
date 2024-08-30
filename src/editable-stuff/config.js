@@ -88,24 +88,24 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 20 },
+    { name: "Python", value: 60 },
     { name: "SIEM", value: 75 },
-    { name: "Linux", value: 85 },
-    { name: "Bash Scripting", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Linux", value: 90 },
+    { name: "Bash", value: 65 },
+    { name: "Powershell", value: 90 },
+    { name: "Incident Response", value: 85 },
+    { name: "Vulnerability Management", value: 80 },
+    { name: "Security Automation", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Fast-learning", value: 100 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Problem Solving", value: 85 },
+    { name: "Communication", value: 90 },
+    { name: "Organization", value: 95 },
+    { name: "Creativity", value: 70 },
   ],
 };
 
@@ -114,23 +114,23 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Feel free to email me with any inquiries",
+  email: "gdepaola1@outlook.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'IT Professional',// Here Add Company Name
+      companylogo: require('../assets/img/UHM.png'),
+      date: 'May 2023 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'IT Security Intern',
+      companylogo: require('../assets/img/UHM.png'),
+      date: 'May 2022 – May 2023',
     },
   ]
 }
