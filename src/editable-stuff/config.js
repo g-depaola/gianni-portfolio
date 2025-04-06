@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/profilepic.jpg"),
   imageSize: 375,
   message:
-    "My name is Gianni DePaola. I am a graduate from the University of Cincinnati class of '24 with a B.S. in Cybersecurity and a B.S. in IT Computer Networking and Systems. I am very passionate about information security, technology, and learning new things.",
+    "My name is Gianni DePaola. I am a graduate from the University of Cincinnati class of '24 with a B.S. in Cybersecurity and a B.S. in IT Computer Networking and Systems. I am very passionate about cybersecurity, technology, and learning new things.",
   // resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -88,14 +88,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 60 },
-    { name: "SIEM", value: 75 },
+    { name: "Python", value: 95 },
+    { name: "SIEM", value: 85 },
     { name: "Linux", value: 90 },
     { name: "Bash", value: 65 },
     { name: "Powershell", value: 90 },
     { name: "Incident Response", value: 85 },
     { name: "Vulnerability Management", value: 80 },
-    { name: "Security Automation", value: 80 },
+    { name: "Security Automation", value: 85 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -123,9 +123,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'IT Professional',// Here Add Company Name
+      role: 'Security Project Engineer',// Here Add Company Name
       companylogo: require('../assets/img/UHM.png'),
       date: 'May 2023 – Present',
+    },
+    {
+      role: 'Jr. IT Security Analyst',// Here Add Company Name
+      companylogo: require('../assets/img/UHM.png'),
+      date: 'May 2023 – February 2025',
     },
     {
       role: 'IT Security Intern',
